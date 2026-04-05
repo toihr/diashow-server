@@ -23,15 +23,15 @@ Raspberry Pi photo slideshow with Samba network share.
 git clone https://github.com/youruser/slideshow-pi.git /opt/slideshow-pi
 ```
 
-### 2. Create Samba user
+### 2. Deploy (installs all packages)
+```bash
+sudo bash /opt/slideshow-pi/deploy.sh
+```
+
+### 3. Create Samba user
 ```bash
 sudo useradd -M -s /sbin/nologin photos
 sudo smbpasswd -a photos
-```
-
-### 3. Deploy
-```bash
-sudo bash /opt/slideshow-pi/deploy.sh
 ```
 
 ## Updating
