@@ -1,0 +1,11 @@
+[Unit]
+Description=Photo Slideshow
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/slideshow.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
