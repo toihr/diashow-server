@@ -20,7 +20,7 @@ Raspberry Pi photo slideshow with Samba network share.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/youruser/slideshow-pi.git /opt/slideshow-pi
+sudo git clone https://github.com/toihr/diashow-server.git /opt/slideshow-pi
 ```
 
 ### 2. Deploy (installs all packages)
